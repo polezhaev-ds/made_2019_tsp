@@ -1,5 +1,5 @@
 # made_2019_tsp
-_Solution of travelling salesman problem for metric graphs using MST and exact approaches
+Solution of travelling salesman problem for metric graphs using MST and exact approaches
 
 ## "An approximate solution to the metric traveling salesman problem for undirected graphs".
 * Find an approximate solution to the metric traveling salesman problem (TSP) for a full undirected graph (on a plane) using a minimal spanning tree (MST).
