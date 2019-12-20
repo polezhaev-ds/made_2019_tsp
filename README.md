@@ -4,7 +4,7 @@
 ## "An approximate solution to the metric traveling salesman problem for undirected graphs".
 * Find an approximate solution to the metric traveling salesman problem (TSP) for a full undirected graph (on a plane) using a minimal spanning tree (MST).
 * Evaluate the quality of approximation on a random set of points normally distributed on a plane with the variance equal to 1. Get a normally distributed set of points using the Box-Muller transform.
-* For a fixed N, the number of graph vertices, run the approximation quality estimation several times. Calculate the mean and standard deviation of the approximation quality for a given `N`.
+* For a fixed `N`, the number of graph vertices, run the approximation quality estimation several times. Calculate the mean and standard deviation of the approximation quality for a given `N`.
 * Run this experiment for all `N` in a certain range, for example, `[2, 10]`.
 * Automate the execution of experiments.
 * The solution requires a reasonable organization of the code using several files. Each class should has its own header and implementation files.
@@ -50,5 +50,7 @@ Desription of the table:
 * `Mean cost of approx./exact` - the mean ratio of the cost of approximate MST-based solution to the cost of exact solution
 * `Std. of approx./exact` - the standard deviation of ratios
 * In the last line, the last two columns are calculated for ratios from all experiments
+
+## Conclusions
 
 Here you can see that for number of vertices ranging from 2 to 10 the approximate MST-based solution is up to ~1.3 times worse than the exact solution, and we know that the theoretical bound is not more than 2 times. The standard deviation tends to decrease with the increase of graph size.
